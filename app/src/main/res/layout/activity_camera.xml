@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="386dp" />
+
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignTop="@+id/down"
+        android:layout_alignEnd="@+id/left"
+        android:layout_alignRight="@+id/left"
+        android:layout_marginTop="-158dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Take a photo" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/left"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/up" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="60dp"
+
+        android:layout_height="60dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/down" />
+
+    <Button
+
+        android:id="@+id/left"
+        android:layout_width="60dp"
+
+        android:layout_height="60dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/right"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/left" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="60dp"
+
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="98dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:background="@drawable/right" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="59dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@+id/down"
+        android:layout_alignEnd="@+id/left"
+        android:layout_alignRight="@+id/left"
+        android:layout_marginTop="-77dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:text="P" />
+
+</RelativeLayout>
